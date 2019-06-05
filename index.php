@@ -27,7 +27,7 @@
         <div class="flexvt"></div>
         <div class="blur myshadow p-4 rounded">
           <div>
-            <h1 class="pb-5">Login</h1>
+            <h1 class="pb-5 text-center">Login</h1>
             <form action="index.php" method="get" class="d-flex flex-column">
               <input id="input" name="input" type="text" placeholder="name">
               <div class="d-flex">
