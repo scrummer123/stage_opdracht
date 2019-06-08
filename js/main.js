@@ -1,13 +1,3 @@
-// FOR LOOP VERBETERD - Daarna > Standaard uitgezet bij inladen (display: none)
-// Bootstrap verbeterd - Mobile nu ook bij eerste 6
-// CSS nagelopen en verwijderd wat onnodig was
-// LOGIN laten zien met PHP ipv Javascript
-
-// var amountOfItems = $(".item").length;
-// for (var i = 1; i <= amountOfItems; i++) {
-//     $(".desc-" + i).slideUp(0);
-// }
-
 function show(id) {
     $(".desc-" + id).slideToggle(100);
     $(".fai-" + id).toggleClass("rotateicon");
